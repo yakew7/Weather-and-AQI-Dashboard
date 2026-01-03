@@ -1,5 +1,5 @@
-const weatherKey = "39e4ec8238c6e722cfba8783a662c4be";   // OpenWeather API key
-const waqiToken = "4ea44e00d6e8b2a96697988d62834ce13eb0bb06";   // WAQI token
+const weatherKey = "";   // OpenWeather API key
+const waqiToken = "";   // WAQI token
 
 const searchInput = document.getElementById("search");
 const dropdown = document.getElementById("dropdown-list");
