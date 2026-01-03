@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather & AQI Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<main>
+    <section id="weather-wrapper">
+
+        <button id="modeToggle">🌙</button>
+        <h1>Weather App</h1>
+
+        <div id="weather-search">
+            <div class="dropdown">
+                <input id="search" placeholder="Search city" autocomplete="off">
+                <div id="dropdown-list" class="dropdown-list"></div>
+            </div>
+            <button id="submit">Search</button>
+        </div>
+
+        <div id="weather-data" style="display:none;"></div>
+
+        <div id="aqi-container" style="display:none;">
+            <div id="aqi-bar"></div>
+        </div>
+
+        <div id="forecast"></div>
+
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
